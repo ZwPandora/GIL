@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4ECC35EE-C644-4C8F-AB36-F106EC115C6F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>thesis.idal</RootNamespace>
+    <AssemblyName>thesis.idal</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IEvaluation.cs" />
+    <Compile Include="IComponent.cs" />
+    <Compile Include="ICORRELATIONSHIP.cs" />
+    <Compile Include="IExpertInfo.cs" />
+    <Compile Include="IFI_Exp.cs" />
+    <Compile Include="IFI_FM.cs" />
+    <Compile Include="IEvaluationCriteria.cs" />
+    <Compile Include="IFaultCaseBase.cs" />
+    <Compile Include="ICompany.cs" />
+    <Compile Include="ICZRZ.cs" />
+    <Compile Include="IDepartment.cs" />
+    <Compile Include="IFailureMode.cs" />
+    <Compile Include="IFI_RF.cs" />
+    <Compile Include="IFMEAItemDal.cs" />
+    <Compile Include="IFM_Indexs.cs" />
+    <Compile Include="IGILIndexDal.cs" />
+    <Compile Include="IGISINFO.cs" />
+    <Compile Include="IICS_OBQX.cs" />
+    <Compile Include="IICS_ROLE.cs" />
+    <Compile Include="IICS_ROLEGL.cs" />
+    <Compile Include="IICS_THEME_CONTENT.cs" />
+    <Compile Include="IICS_TREE.cs" />
+    <Compile Include="IIndexSystem.cs" />
+    <Compile Include="ILoginRecord.cs" />
+    <Compile Include="IMalfunction.cs" />
+    <Compile Include="IOBQX_WEB.cs" />
+    <Compile Include="IOffice.cs" />
+    <Compile Include="IRiskFactor.cs" />
+    <Compile Include="IROLE.cs" />
+    <Compile Include="IROLEGL.cs" />
+    <Compile Include="IUSER.cs" />
+    <Compile Include="ITREE_WEB.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\modal\model.csproj">
+      <Project>{BA825252-593D-40D3-B80B-F243FB405CFE}</Project>
+      <Name>model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
