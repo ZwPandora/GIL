@@ -1,0 +1,73 @@
+﻿
+<%@ Register Assembly="DevExpress.Web.ASPxGridView.v9.2.Export, Version=9.2.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+    Namespace="DevExpress.Web.ASPxGridView.Export" TagPrefix="dxwgv" %>
+<%@ Register Assembly="DevExpress.Web.ASPxGridView.v9.2, Version=9.2.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+    Namespace="DevExpress.Web.ASPxGridView" TagPrefix="dxwgv" %>
+
+<dxwgv:ASPxGridView  runat="server" CssFilePath="~/App_Themes/Office2003Blue/{0}/styles.css"
+            CssPostfix="Office2003_Blue" Width="100%" AutoGenerateColumns="False" 
+             SettingsLoadingPanel-Text="加载中……" >
+            <Styles CssFilePath="~/App_Themes/Office2003Blue/{0}/styles.css" CssPostfix="Office2003_Blue">
+                <Header ImageSpacing="5px" SortingImageSpacing="5px">
+                </Header>
+                <LoadingPanel ImageSpacing="10px">
+                </LoadingPanel>
+                <AlternatingRow Enabled="True">
+                </AlternatingRow>
+                <SelectedRow BackColor="#FFCC66">
+                </SelectedRow>
+                 <Cell Wrap="False">
+                        </Cell>
+            </Styles>
+          <SettingsBehavior EnableRowHotTrack="true"    AutoFilterRowInputDelay="30000" />
+            <SettingsPager PageSize="20" CurrentPageNumberFormat="-{0}-" NumericButtonCount="10"
+                Position="TopAndBottom" ShowSeparators="True">
+                <FirstPageButton Visible="True">
+                </FirstPageButton>
+                <LastPageButton Visible="True">
+                </LastPageButton>
+                <Summary Text="第 {0} 页 共有 {1} 页 共有 {2} 条记录 " />
+            </SettingsPager>
+            <SettingsText EmptyDataRow="没有查询到数据" CommandClearFilter="清空" />
+        <StylesPager>
+            <CurrentPageNumber BackColor="#D3E4FA">
+            </CurrentPageNumber>
+        </StylesPager>
+            <Images ImageFolder="~/App_Themes/Office2003Blue/{0}/">
+                <CollapsedButton Height="12px" Url="~/App_Themes/Office2003Blue/GridView/gvCollapsedButton.png"
+                    Width="11px" />
+                <ExpandedButton Height="12px" Url="~/App_Themes/Office2003Blue/GridView/gvExpandedButton.png"
+                    Width="11px" />
+                <DetailCollapsedButton Height="12px" Url="~/App_Themes/Office2003Blue/GridView/gvCollapsedButton.png"
+                    Width="11px" />
+                <DetailExpandedButton Height="12px" Url="~/App_Themes/Office2003Blue/GridView/gvExpandedButton.png"
+                    Width="11px" />
+                <FilterRowButton Height="13px" Width="13px" />
+            </Images>
+            <StylesEditors>
+                <ProgressBar Height="25px">
+                </ProgressBar>
+            </StylesEditors>
+        </dxwgv:ASPxGridView>
+        
+        <asp:DropDownList runat="server" style="border:solid 1px #7B9ECE"> </asp:DropDownList>
+  <asp:ImageButton runat="server" style="cursor:hand; border:0px;"></asp:ImageButton>
+   <asp:TreeView  runat="server"  SkinId="treeStyle"
+   ShowLines="True" 
+   Style="text-align: left" 
+   Target="main" 
+   ExpandDepth="1" 
+   NodeIndent="5"
+   Font-Names="Verdana"       
+   ForeColor="Black"      
+   Font-Size="8pt"
+   NodeStyle-HorizontalPadding="5"      
+   HoverNodeStyle-ForeColor="Orange"      
+   HoverNodeStyle-Font-UnderLine="true"   
+   HoverNodeStyle-Font-Bold="true"    
+   HoverNodeStyle-BackColor="White"      
+   HoverNodeStyle-BorderColor="#888888"      
+   HoverNodeStyle-BorderWidth="1"      
+   HoverNodeStyle-BorderStyle="Solid"
+   >
+   </asp:TreeView>

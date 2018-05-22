@@ -1,0 +1,21 @@
+﻿body { margin:0px;font-family:微软雅黑 新宋体 宋体; font-size:12px;}
+#TabTitle{ font-family:微软雅黑 新宋体 宋体; font-size:14px; font-weight:bold; margin-top:0px; margin-left:0px;}
+#BtnTable{ margin-left:0px; margin-top:0px; border: solid 1px #7B9ECE;  font-family:微软雅黑 新宋体 宋体; font-size:13px; font-weight:lighter;
+}
+.BtnDiv{width:50px; position:relative; float:left;}
+.BtnHr{filter: alpha(opacity=100,finishopacity=1,style=3); width:100% ; height:3px; color:#7B9ECE ;}
+.PageDiv{width:80%;}
+.filedsedstyle{margin-left:0px; border: 1px solid #7B9ECE;	margin: 0px;	font-family:微软雅黑 新宋体 宋体; font-size:12px; font-weight:lighter;
+}
+.legendstyle{ border-color:#7B9ECE; border-style:solid; border-width:1px;font-family:微软雅黑 新宋体 宋体; font-size:12px;color: #656569; font-weight:lighter;}
+.officecontrol{ margin:0px;}
+#myTable{border:solid 1px #7B9ECE;border-collapse:collapse;}
+#myTable td{border:solid 1px #7B9ECE; border-collapse:collapse; height:18px;}
+ table { font-size:12px;}
+ img{ cursor:hand; border:0px;}
+  td  { font-size: 12px;font-family: 微软雅黑 新宋体 宋体; line-height: 23px; color: #656569; }
+  input { font-size: 12px;  border-bottom: 1px solid #656565;  border-right: 0px;border-left: 0px;border-top: 0px;}
+  .ContentTable{width:80%;border:0px;}
+  .CT{ text-align:right; padding-right:5px; width:15%; }
+  .CV{text-align:left;padding:0px; width:25%;}
+  .CVC{width:90%;height:20px;}
