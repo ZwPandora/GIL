@@ -1,0 +1,12 @@
+F:\科研\GIL\GIL可靠性分析软件设计\GIL\modal\bin\Debug\thesis.modal.dll
+F:\科研\GIL\GIL可靠性分析软件设计\GIL\modal\bin\Debug\thesis.modal.pdb
+F:\科研\GIL\GIL可靠性分析软件设计\GIL\modal\obj\Debug\thesis.modal.dll
+F:\科研\GIL\GIL可靠性分析软件设计\GIL\modal\obj\Debug\thesis.modal.pdb
+D:\myworks\private\GIL\GIL\modal\bin\Debug\thesis.modal.dll
+D:\myworks\private\GIL\GIL\modal\bin\Debug\thesis.modal.pdb
+D:\myworks\private\GIL\GIL\modal\obj\Debug\thesis.modal.dll
+D:\myworks\private\GIL\GIL\modal\obj\Debug\thesis.modal.pdb
+F:\科研\GIL\GIL可靠性分析软件设计\GIL-vision2\modal\bin\Debug\thesis.modal.dll
+F:\科研\GIL\GIL可靠性分析软件设计\GIL-vision2\modal\bin\Debug\thesis.modal.pdb
+F:\科研\GIL\GIL可靠性分析软件设计\GIL-vision2\modal\obj\Debug\thesis.modal.dll
+F:\科研\GIL\GIL可靠性分析软件设计\GIL-vision2\modal\obj\Debug\thesis.modal.pdb

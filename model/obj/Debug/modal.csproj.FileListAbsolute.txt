@@ -1,0 +1,17 @@
+D:\myworks\private\Thesis\modal\bin\Debug\thesis.modal.dll
+D:\myworks\private\Thesis\modal\bin\Debug\thesis.modal.pdb
+D:\myworks\private\Thesis\modal\obj\Debug\thesis.modal.dll
+D:\myworks\private\Thesis\modal\obj\Debug\thesis.modal.pdb
+D:\myworks\private\Thesis_Sys\modal\bin\Debug\thesis.modal.dll
+D:\myworks\private\Thesis_Sys\modal\bin\Debug\thesis.modal.pdb
+D:\myworks\private\Thesis_Sys\modal\obj\Debug\thesis.modal.dll
+D:\myworks\private\Thesis_Sys\modal\obj\Debug\thesis.modal.pdb
+C:\Users\Administrator\Desktop\Thesis_Sys\modal\bin\Debug\thesis.modal.dll
+C:\Users\Administrator\Desktop\Thesis_Sys\modal\bin\Debug\thesis.modal.pdb
+C:\Users\Administrator\Desktop\Thesis_Sys\modal\obj\Debug\thesis.modal.dll
+C:\Users\Administrator\Desktop\Thesis_Sys\modal\obj\Debug\thesis.modal.pdb
+C:\Users\Administrator\Desktop\Thesis_Sys\modal\obj\Debug\modal.csprojResolveAssemblyReference.cache
+F:\科研\GIL\GIL可靠性分析软件设计\GIL\modal\bin\Debug\thesis.modal.dll
+F:\科研\GIL\GIL可靠性分析软件设计\GIL\modal\bin\Debug\thesis.modal.pdb
+F:\科研\GIL\GIL可靠性分析软件设计\GIL\modal\obj\Debug\thesis.modal.dll
+F:\科研\GIL\GIL可靠性分析软件设计\GIL\modal\obj\Debug\thesis.modal.pdb
