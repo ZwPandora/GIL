@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C61AFB82-B468-4666-A5EA-4EC532C20218}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>thesis.dal</RootNamespace>
+    <AssemblyName>thesis.dal</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Company.cs" />
+    <Compile Include="Component.cs" />
+    <Compile Include="CORRELATIONSHIP.cs" />
+    <Compile Include="CZRZ.cs" />
+    <Compile Include="Department.cs" />
+    <Compile Include="Evaluation.cs" />
+    <Compile Include="EvaluationCriteriaDal.cs" />
+    <Compile Include="ExpertInfo.cs" />
+    <Compile Include="FailureMode.cs" />
+    <Compile Include="FaultCaseBase.cs" />
+    <Compile Include="FI_Exp.cs" />
+    <Compile Include="FI_FM.cs" />
+    <Compile Include="FI_RF.cs" />
+    <Compile Include="FMEAItemDal.cs" />
+    <Compile Include="FM_Indexs.cs" />
+    <Compile Include="GILIndexDal.cs" />
+    <Compile Include="GISINFO.cs" />
+    <Compile Include="GOLEGL.cs" />
+    <Compile Include="ICS_OBQX.cs" />
+    <Compile Include="ICS_ROLE.cs" />
+    <Compile Include="ICS_ROLEGL.cs" />
+    <Compile Include="ICS_THEME_CONTENT.cs" />
+    <Compile Include="ICS_TREE.cs" />
+    <Compile Include="IndexSystem.cs" />
+    <Compile Include="LoginRecord.cs" />
+    <Compile Include="Malfunction.cs" />
+    <Compile Include="OBQX_WEB.cs" />
+    <Compile Include="Office.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RiskFactorDal.cs" />
+    <Compile Include="ROLE.cs" />
+    <Compile Include="TREE_WEB.cs" />
+    <Compile Include="USER.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\common\common.csproj">
+      <Project>{FE29E85A-62F1-4E92-8ACC-B5154B6F4BD3}</Project>
+      <Name>common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\idal\idal.csproj">
+      <Project>{4ECC35EE-C644-4C8F-AB36-F106EC115C6F}</Project>
+      <Name>idal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\modal\model.csproj">
+      <Project>{BA825252-593D-40D3-B80B-F243FB405CFE}</Project>
+      <Name>model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
